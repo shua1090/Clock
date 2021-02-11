@@ -79,8 +79,8 @@ int main(){
         int hour = *(z);
         int minute = *(z+1);
         int second = *(z+2);
-        hourVertices.at(1) = sf::Vertex(sf::Vector2f(250 + 150*sin((30*hour)*PI/180), 250 - 200*cos((30*hour)*PI/180)));
-        minuteVertices.at(1) = sf::Vertex(sf::Vector2f(250 + 230*sin((6*minute)*PI/180), 250 - 200*cos((6*minute)*PI/180)));
+        hourVertices.at(1) = sf::Vertex(sf::Vector2f(250 + 150*sin((30*hour)*PI/180), 250 - 150*cos((30*hour)*PI/180)));
+        minuteVertices.at(1) = sf::Vertex(sf::Vector2f(250 + 230*sin((6*minute)*PI/180), 250 - 230*cos((6*minute)*PI/180)));
         secondVertices.at(1) = sf::Vertex(sf::Vector2f(250 + 200*sin((6*second)*PI/180), 250 - 200*cos((6*second)*PI/180)));
         
     }
