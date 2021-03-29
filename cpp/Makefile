@@ -1,5 +1,7 @@
 .SILENT:
 
+#Change the Include Path to wherever your SFML includes are
+
 INCLUDE = -DSFML_STATIC -Iinclude
 EXTERNAL = -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lopengl32 -lwinmm -lgdi32 -lfreetype
 STANDARD = -static-libgcc -static-libstdc++
